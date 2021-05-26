@@ -12,6 +12,7 @@ const Color dsPurple = Color(0xFF9B51E0);
 const Color dsOrange = Color(0xFFFFA656);
 const Color dsDark = Color(0xFF18152C);
 const Color dsBackground = Color(0xFFFAFAFF);
+const Color dsWhite = Color(0xFFFFFFFF);
 
 // FontSizes
 const double dsXSmall = 12;

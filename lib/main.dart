@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:timepad/ui/home/home_view.dart';
 import 'package:timepad/ui/shared/styles.dart';
 
 void main() {
@@ -6,16 +7,17 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TimePad',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: dsBackground,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'TimePad'),
+      home: HomeView(),
+      // home: MyHomePage(title: 'TimePad'),
     );
   }
 }
