@@ -7,7 +7,7 @@ const Color dsGreen = Color(0xFF07E092);
 const Color dsLightGrey = Color(0xFFFAFAFF);
 const Color dsGrey2 = Color(0xFF4F4F4F);
 const Color dsGrey3 = Color(0xFF828282);
-const Color dsBlack = Color(0xFF000000);
+const Color dsBlack = Color(0xFF070417);
 const Color dsPurple = Color(0xFF9B51E0);
 const Color dsOrange = Color(0xFFFFA656);
 const Color dsDark = Color(0xFF18152C);
@@ -44,6 +44,12 @@ const TextStyle dsHeadingPeta = TextStyle(
   fontWeight: FontWeight.w500
 );
 
+const TextStyle dsHeadingPetaWhite = TextStyle(
+  color: dsWhite,
+  fontSize: ds3XLarge,
+  fontWeight: FontWeight.w500
+);
+
 const TextStyle dsHeadingTera = TextStyle(
   color: dsBlack,
   fontSize: ds2XLarge,
@@ -75,6 +81,12 @@ const TextStyle dsSubHeadingMega = TextStyle(
   fontWeight: FontWeight.w500
 );
 
+const TextStyle dsSubHeadingKilo = TextStyle(
+  color: dsBlack,
+  fontSize: dsSmall,
+  fontWeight: FontWeight.w500
+);
+
 // Text
 const TextStyle dsTextKilo = TextStyle(
   color: dsGrey2,
@@ -90,6 +102,12 @@ const TextStyle dsTextMega = TextStyle(
 
 const TextStyle dsTextGiga = TextStyle(
   color: dsBlack,
+  fontSize: dsMedium,
+  fontWeight: FontWeight.w400
+);
+
+const TextStyle dsTextGigaWhite = TextStyle(
+  color: dsWhite,
   fontSize: dsMedium,
   fontWeight: FontWeight.w400
 );
