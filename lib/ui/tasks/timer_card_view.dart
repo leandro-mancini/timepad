@@ -5,13 +5,21 @@ class TimerCardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverToBoxAdapter(
-      child: Container(
-        padding: EdgeInsets.symmetric(
-          horizontal: dsMedium
-        ),
+      child: cardContent(),
+    );
+  }
+
+  Widget cardContent() {
+    return Card(
+      elevation: 0,
+      color: dsBlack,
+      margin: EdgeInsets.symmetric(
+        horizontal: dsMedium
+      ),
+      child: InkWell(
+        onTap: () => { print('click card') },
         child: Container(
           decoration: BoxDecoration(
-            color: dsBlack,
             borderRadius: BorderRadius.all(Radius.circular(dsXSmall))
           ),
           padding: EdgeInsets.symmetric(
@@ -20,45 +28,48 @@ class TimerCardView extends StatelessWidget {
           ),
           child: Column(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    '00:32:10',
-                    style: dsHeadingPetaWhite,
-                  ),
-                  IconButton(
-                    icon: Icon(
-                      Icons.arrow_forward_ios,
-                      color: dsWhite,
-                      size: dsMedium,
-                    ),
-                    tooltip: 'Ir',
-                    onPressed: () { /* ... */ },
-                    splashColor: dsWhite,
-                  ),
-                ],
-              ),
-              Row(
-                children: [
-                  Icon(
-                    Icons.timer,
-                    color: dsWhite,
-                    size: dsMedium,
-                  ),
-                  SizedBox(
-                    width: dsXSmall,
-                  ),
-                  Text(
-                    'Design System',
-                    style: dsTextGigaWhite,
-                  )
-                ],
-              ),
+              timeContent(),
+              taskContent(),
             ],
           ),
         ),
       ),
+    );
+  }
+
+  Widget timeContent() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          '00:32:10',
+          style: dsHeadingPetaWhite,
+        ),
+        Icon(
+          Icons.arrow_forward_ios,
+          color: dsWhite,
+          size: dsMedium,
+        )
+      ],
+    );
+  }
+
+  Widget taskContent() {
+    return Row(
+      children: [
+        Icon(
+          Icons.timer,
+          color: dsWhite,
+          size: dsMedium,
+        ),
+        SizedBox(
+          width: dsXSmall,
+        ),
+        Text(
+          'Design System',
+          style: dsTextGigaWhite,
+        )
+      ],
     );
   }
 }
