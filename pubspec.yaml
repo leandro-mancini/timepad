@@ -74,3 +74,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Rubik
+      fonts:
+        # https://fonts.google.com/specimen/Rubik?query=rubi
+        - asset: assets/fonts/Rubik/Rubik-Regular.ttf
+    - family: RubikBold
+      fonts:
+        # https://fonts.google.com/specimen/Rubik?query=rubi
+        - asset: assets/fonts/Rubik/Rubik-Medium.ttf

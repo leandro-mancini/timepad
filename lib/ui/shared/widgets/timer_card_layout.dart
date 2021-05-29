@@ -7,6 +7,7 @@ class TimerCardLayout extends StatelessWidget {
     return Card(
       elevation: 0,
       color: dsBlack,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(dsXSmall)),
       margin: EdgeInsets.symmetric(
         horizontal: dsMedium
       ),

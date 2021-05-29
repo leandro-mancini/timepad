@@ -25,85 +25,101 @@ const double ds3XLarge = 32;
 const double ds4XLarge = 40;
 const double ds5XLarge = 48;
 
+const String dsFont = 'Rubik';
+const String dsFontBold = 'RubikBold';
+
 // Headings
 const TextStyle dsHeadingZetta = TextStyle(
   color: dsBlack,
   fontSize: ds5XLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsHeadingExa = TextStyle(
   color: dsBlack,
   fontSize: ds4XLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsHeadingPeta = TextStyle(
   color: dsBlack,
   fontSize: ds3XLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsHeadingPetaWhite = TextStyle(
   color: dsWhite,
   fontSize: ds3XLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsHeadingTera = TextStyle(
   color: dsBlack,
   fontSize: ds2XLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsHeadingGiga = TextStyle(
   color: dsBlack,
   fontSize: dsXLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsHeadingMega = TextStyle(
   color: dsBlack,
   fontSize: dsLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 // SubHeading
 const TextStyle dsSubHeadingGiga = TextStyle(
   color: dsBlack,
   fontSize: dsXLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsSubHeadingMega = TextStyle(
   color: dsBlack,
   fontSize: dsLarge,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 const TextStyle dsSubHeadingKilo = TextStyle(
   color: dsBlack,
   fontSize: dsSmall,
-  fontWeight: FontWeight.w500
+  fontWeight: FontWeight.w500,
+  fontFamily: dsFontBold
 );
 
 // Text
 const TextStyle dsTextKilo = TextStyle(
   color: dsGrey2,
   fontSize: dsXSmall,
-  fontWeight: FontWeight.w400
+  fontWeight: FontWeight.w400,
+  fontFamily: dsFont
 );
 
 const TextStyle dsTextMega = TextStyle(
   color: dsBlack,
   fontSize: dsSmall,
-  fontWeight: FontWeight.w400
+  fontWeight: FontWeight.w400,
+  fontFamily: dsFont
 );
 
 const TextStyle dsTextGiga = TextStyle(
   color: dsBlack,
   fontSize: dsMedium,
-  fontWeight: FontWeight.w400
+  fontWeight: FontWeight.w400,
+  fontFamily: dsFont
 );
 
 const TextStyle dsTextGigaWhite = TextStyle(

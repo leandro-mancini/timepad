@@ -102,22 +102,5 @@ class ListItemLayout extends StatelessWidget {
         ),
       ),
     );
-    // return Column(
-    //   mainAxisAlignment: MainAxisAlignment.end,
-    //   children: [
-    //     Text(
-    //       '00:14:06',
-    //       style: dsTextKilo,
-    //     ),
-    //     IconButton(
-    //       onPressed: () => {},
-    //       icon: Icon(
-    //         Icons.play_arrow,
-    //         size: ds2XLarge,
-    //         color: dsGrey2,
-    //       ),
-    //     ),
-    //   ],
-    // );
   }
 }

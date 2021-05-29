@@ -14,7 +14,7 @@ class TaskListView extends StatelessWidget {
           (BuildContext context, int index) {
             return ListItemLayout();
           },
-          childCount: 10,
+          childCount: 5,
         ),
       ),
     );

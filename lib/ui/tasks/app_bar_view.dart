@@ -6,8 +6,8 @@ class AppBarView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverAppBar(
       titleSpacing: 0,
-      pinned: true,
-      expandedHeight: 100.0,
+      // pinned: true,
+      expandedHeight: 120.0,
       backgroundColor: dsBackground,
       flexibleSpace: FlexibleSpaceBar(
         title: Text(
